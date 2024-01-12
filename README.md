@@ -1,1 +1,1 @@
-# lessons of MindX
+# Just intended for students in MindX
