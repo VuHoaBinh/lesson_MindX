@@ -1,1 +1,1 @@
-# lesson_MindX
+# lessons of MindX
