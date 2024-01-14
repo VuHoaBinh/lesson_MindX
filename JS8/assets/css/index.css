@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/003/680/429/large/nova-ashbell-sc01-03.jpg?1476361405");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(5px);
+  }
+  
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    color: white;
+    background-image: url("https://media.giphy.com/media/G0Odfjd78JTpu/giphy.gif");
+    width: 400px;
+    margin: 0px auto;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.233);
+  }
+  
+  .search-bar {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+  }
+  
+  .search-icon {
+    margin-right: 5px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+  }
+  
+  .search-icon:hover {
+    color: #cacaca;
+  }
+  
+  #search-input {
+    border: 0;
+    outline: 0;
+    padding: 3px 3px 3px 20px;
+    background: transparent;
+    height: 20px;
+    color: white;
+  }
+  
+  #search-input::placeholder {
+    color: rgb(206, 206, 206);
+  }
+  
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 80px 50px;
+  }
+  
+  .city-name {
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+  }
+  
+  .weather-state {
+    font-size: 13px;
+  }
+  
+  .weather-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .temperature {
+    font-size: 80px;
+    font-weight: lighter;
+    line-height: 1;
+    position: relative;
+  }
+  
+  .temperature::after {
+    content: "o";
+    position: absolute;
+    font-size: 30px;
+  }
+  
+  .additional-section {
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  
+  .additional-section .row {
+    margin-bottom: 5px;
+    display: flex;
+  }
+  
+  .additional-section .item {
+    display: flex;
+    flex-direction: column;
+    flex: 2; /*flex-shrink ( co lại ) flex-grow(dãn ra) và flex-basis ( xác định độ dài ban đầu )*/
+  }
+  
+  .additional-section .item .label {
+    font-weight: bold;
+  }
